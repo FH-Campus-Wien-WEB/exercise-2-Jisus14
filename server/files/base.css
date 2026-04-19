@@ -1,11 +1,59 @@
-body {
-  font-family: "Trebuchet MS", sans-serif;
+body{
+    font-family:"Comic Sans MS",VERDANA,ARIAL,HELVETICA;
+    color: black;
 }
 
-button {
-    padding: 0px 8px;
-    margin-right: 8px;
-    border-width: 1px;
-    border-radius: 4px;
-    font-size: 110%;
+img{
+    border-radius: 5%;
+    width: 50%;
+    height: 50%;
+    max-width: 400px;
+}
+img:hover{
+    transform: scale(1.01);
+}
+
+h1{
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+article{
+    color: white;
+    background-color: #4a412a;
+    border-radius: 5%;
+    margin: 50px;
+    padding: 5%;
+    box-shadow: 10px 5px 5px grey;
+}
+span{
+    margin-right: 5px;
+}
+span.genre{
+    background-color: #4a41ff;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid red;
+    display: inline-block;
+    color: white;
+}
+span.genre:hover{
+    background-color: black;
+    transform: scale(2);
+}
+.edit-btn {
+    background-color: #4a41ff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid red;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.edit-btn:hover {
+    background-color: black;
+    transform: scale(1.1);
 }
